@@ -67,7 +67,7 @@ REPLACE ( string_expression , string_pattern , string_replacement )
  0x0000 (**char(0)** ) 是 Windows 定序中未定義的字元，而且不得包含在 REPLACE 中。  
   
 ## <a name="examples"></a>範例  
- 下列範例利用 `cde` 來取代 `abcdefghi` 中的 `xxx` 字串。  
+ 下列範例利用 `xxx` 來取代 `abcdefghi` 中的 `cde` 字串。  
   
 ```sql  
 SELECT REPLACE('abcdefghicde','cde','xxx');  
